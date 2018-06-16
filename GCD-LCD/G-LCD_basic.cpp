@@ -9,7 +9,7 @@ int GCD(int a, int b){
 }
 int LCD(int a, int b){
 	int gcd=GCD(a,b);
-	return gcd*(a/gcd)*(b/gcd);
+	return a*(b/gcd);
 }
 
 int main(int argc, char** argv) {
@@ -37,7 +37,7 @@ int GCD(int a, int b){
 }
 int LCD(int a, int b){
 	int gcd=GCD(a,b);
-	return gcd*(a/gcd)*(b/gcd);
+	return a*(b/gcd);
 }
 
 int main(int argc, char** argv) {
